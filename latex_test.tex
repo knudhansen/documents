@@ -53,7 +53,7 @@
 
 \noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
 
-\NewEntry{}{\textit{Born in Germany,}}{23 June 1978} % Birthplace and date
+\NewEntry{birth date}{23, June 1978 (age: 38)} % Email address
 
 \NewEntry{email}{\href{mailto:knud.hansen@gmail.com}{knud.hansen@gmail.com}} % Email address
 
@@ -61,9 +61,7 @@
 
 \vspace{1em} % Extra white space between the personal information section and goal
 
-\noindent\spacedlowsmallcaps {Goal}\vspace{1em} % Goal heading, could be used for a quotation or short profile instead
-
-\Description{Extend my experience in embedded software development and architecture to larger real time systems.}\vspace{2em} % Goal text
+\Description{Highly experienced Embedded Software Engineer.\newline I will extend my experience in embedded software development and architecture to larger real time systems.\newline Fluent in English, French, Danish. Advanced German}\vspace{2em} % Goal text
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
@@ -71,25 +69,22 @@
 
 \noindent\spacedlowsmallcaps{Work Experience}\vspace{1em}
 
-\NewEntry{2013--Present}{Firmware Lead Developer, \textsc{Oticon AS}}{}{Copenhagen, Denmark}
+\NewEntry{2013--Present}{Lead Developer, \textsc{Oticon AS}}{}{Copenhagen, Denmark}
 
-\Description{\MarginText{Reference}Bjarne \textsc{Kielsholm Ribalaygua}\ \ $\cdotp$\ \ +1 (000) 111 1111\ \ $\cdotp$\ \ \href{mailto:bkri@oticon.com}{bkri@oticon.com}}
-\Description{\MarginText{Platform Architecture}SysML description of the Firmware platform.\newline Integration of an RF chip in the chipset.\newline Support for several chipset and firmware configurations.\newline Requirement definition for the IC platforms. \newline Definition of Firmware Platform API.\newline Responsible of memory budget.}
-\Description{\MarginText{ROMs}Responsible for implementation and test of ROMs for 3 ICs.\newline Implementing tools for ROM patching and address space optimization.}
-
+\Description{\MarginText{Role}Led development (15 people) of the firmware platforms for hearing instruments and hearing instrument accessories. Responsible of integrating features to the platform, including task estimation, memory and cycle budgetting. Responsible of multiple chipsets and multiple product support.}
+\Description{\MarginText{Achievements}Integrated first RF chip into the Oticon platform.\newline Succesful delivery of a platform for the OPN hearing instrument and accessories.\newline Successful delivery of 4 ROMs.\newline Providing IC requirements for three ICs}
+\Description{\MarginText{Tasks}SysML architectural description of the Firmware platform.\newline definition of the Firmware Platform requirements (DOORS).\newline Support for several chipset and firmware configurations.\newline Requirement definition for the Hearing Instrument Integrated Circuits. \newline Definition of Firmware Platform API.\newline Memory budgetting and memory footprint monitoring (python and excel).\newline Implementation (C) and test (C++/java) of firmware features}
 \vspace{1em} % Extra space between major sections
 
 %------------------------------------------------
 
 \NewEntry{2005--2013}{Firmware Developer, \textsc{Oticon AS} -- Copenhagen, Denmark}
 
-\Description{\MarginText{Firmware development}Implementing firmware (C) for the control processor for hearing instruments.\newline Low level firmware including interfaces to an I2C processor and DSP processors.\newline RTOS evaluation. Porting embOS to the HI processors.}
+\Description{\MarginText{Role}Developed platform firmware for control and DSP processors.}
 
-\Description{\MarginText{Test Framework}Implementing a java framework for validation of ICs including control of instruments and interface to an SQL database including PhP frontend.}
+\Description{\MarginText{Achievements}Implementation of the firmware tool chain for the Aurora chipset.\newline Implementation of a bit-true test framework for the Fusion Chipset.\newline Development of Firmware for the Feedback Cancellation module on the Fusion Chipset.\newline Developed IC validation framework.}
 
-\Description{\MarginText{Build Flow}Implementing Firmware Build chain in \textsc{Scons}. Implementing python and perl scripts.}
-
-\Description{\MarginText{DSP firmware}Implementing Firmware for dynamic feedback cancellation in V8 assembler. Implementing python and perl scripts.}
+\Description{\MarginText{Tasks}Implementing firmware for the control processor for the Oticon Firmware Platform in C.\newline optimization of the program memory consumption.\newline development of python tools for stack analysis and ROM patching.\newline RTOS evaluation. Porting embOS to the HI processors.\newline Implementing a java framework for validation of ICs including control of instruments and interface to an SQL database including PhP frontend.}
 
 \vspace{1em} % Extra space between major sections
 
@@ -97,7 +92,11 @@
 
 \NewEntry{2001--2002}{Process Control Engineer, \textsc{Siemens AG} -- Karlsruhe, Germany}
 
-\Description{\MarginText{Process Control}Implementation of a generic SCL module for control of pumps and valves.\newline }
+\Description{\MarginText{Role}Developed software for control of a process line.\newline }
+
+\Description{\MarginText{Achievements}Implementation of a module for control of pumps and valves.}
+
+\Description{\MarginText{Tasks}Implementation of a generic STEP7 module for controlling pumps and valves in a chemical production line.\newline Implementation in C++ of a tool to instantiate and setup the module for a propduction chain.}
 
 %------------------------------------------------
 
@@ -108,6 +107,8 @@
 %----------------------------------------------------------------------------------------
 
 \spacedlowsmallcaps{Education}\vspace{1em}
+
+Add internships.
 
 \NewEntry{2002-2004}{Technical University of Denmark -- Copenhagen}
 
@@ -121,8 +122,8 @@ Supervisor: Prof.~Jan \textsc{Madsen}}
 
 \NewEntry{1996-2001}{Technical University of Mechanical and Electrical Engineering (E.N.S.E.M.) -- Nancy, France}
 
-\Description{\MarginText{Engineering Degree}Automated Systems Engineering\newline
-Degree with focus on electronics and computer systems in the context of process control.}
+\Description{\MarginText{Masters og Engineering}Automated Systems Engineering\newline
+Degree with focus on automation, electronics and computer systems in the context of process control.}
 
 %------------------------------------------------
 
@@ -132,7 +133,7 @@ Degree with focus on electronics and computer systems in the context of process 
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\spacedlowsmallcaps{Computer Skills}\vspace{1em}
+\spacedlowsmallcaps{Skills and Competences -- FIXME:find better name}\vspace{1em}
 
 \Description{\MarginText{Architecture}SysML, UML}
 
@@ -148,6 +149,9 @@ Degree with focus on electronics and computer systems in the context of process 
 
 \Description{\MarginText{HDL}VHDL, System verilog}
 
+\Description{\MarginText{Languages}Fluent: French, English, Danish. Advanced: German}
+
+
 
 %------------------------------------------------
 
@@ -157,28 +161,38 @@ Degree with focus on electronics and computer systems in the context of process 
 %	OTHER INFORMATION
 %----------------------------------------------------------------------------------------
 
+\spacedlowsmallcaps{Courses}\vspace{1em}
+
+\Description{\MarginText{}2016: Securing Embedded Systems course - BAAR group}
+\Description{\MarginText{}2015: internal Requirement Specification and DOORS courses}
+\Description{\MarginText{}2013: SysML system modelling course - FIXME}
+
+%----------------------------------------------------------------------------------------
+%	OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\vspace{1em}
+
 \spacedlowsmallcaps{Other Information}\vspace{1em}
 
 %------------------------------------------------
 
-\vspace{1em}
-
-\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
-\settowidth{\langbox}{English} % Length equals the length of "English" - if you have a longer language in your list put it here
-
-\Description{\MarginText{Languages}\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \ \ Mothertongue}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \ \ Fluent}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{Danish}}\ \ $\cdotp$\ \ \ Fluent}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
-\Description{\parbox{\langbox}{\textsc{German}}\ \ $\cdotp$\ \ \ Advanced}
+%\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
+%\settowidth{\langbox}{English} % Length equals the length of "English" - if you have a longer language in your list put it here
+%
+%\Description{\MarginText{Languages}\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \ \ Mothertongue}%
+%
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+%
+%\Description{\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \ \ Fluent}
+%
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+%
+%\Description{\parbox{\langbox}{\textsc{Danish}}\ \ $\cdotp$\ \ \ Fluent}
+%
+%\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+%
+%\Description{\parbox{\langbox}{\textsc{German}}\ \ $\cdotp$\ \ \ Advanced}
 
 \vspace{1em} % Negative vertical space to counteract the vertical space between every \Description command
 
@@ -188,11 +202,19 @@ Degree with focus on electronics and computer systems in the context of process 
 \vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
 \Description{{Amator racing once a week during the season.}}
 \vspace{-1em} % Negative vertical space to counteract the vertical space between every \Description command
-\Description{{Responsible for Navigation teaching.}}
+\Description{{Teach navigation course every winter (20-30 students).}}
 \vspace{-1em} % Negative vertical space to counteract the vertical space between every \Description command
-\Description{{Responsible for maintenance of one of the boats of the sailing club.}}
+\Description{{Responsible for boat maintenance (6-meter kiel boat).}}
 
 %----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{References}\vspace{1em}
+
+%------------------------------------------------
+
+\vspace{1em}
+\Description{\MarginText{Oticon AS}Manager: Bjarne \textsc{Kielsholm Ribalaygua}\ \ $\cdotp$\ \ +1 (000) 111 1111\ \ $\cdotp$\ \ \href{mailto:bkri@oticon.com}{bkri@oticon.com}}
+\Description{\MarginText{Oticon AS}System Architect: Thomas \textsc{Gleerup}\ \ $\cdotp$\ \ +1 (000) 111 1111\ \ $\cdotp$\ \ \href{mailto:thgl@oticon.com}{thgl@oticon.com}}
 
 \end{cv}
 
